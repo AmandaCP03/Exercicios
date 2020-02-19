@@ -6,7 +6,7 @@
     </div>
     <div class = "row card" >   
         <div class = "col-4 offset-4" style="heigth:100px">
-            <a href = "../php/form_agendamento.php"> Fazer agendamento </a> &nbsp &nbsp
+            <a href = "../php/index.php"> Fazer agendamento </a> &nbsp &nbsp
             <a href = "../php/lista_agendamento.php"> Lista de agendamento </a>
         </div>
     </div>
