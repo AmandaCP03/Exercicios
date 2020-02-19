@@ -9,7 +9,7 @@
 </head>
 <body>
 <?php
-    include "../inc/menu.inc";
+    include "inc/menu.inc";
     $nome=$_POST["nome"];
     $email=$_POST["email"];
     $telefone=$_POST["telefone"];

@@ -10,7 +10,7 @@
 <body>
 <div class="container">
     <?php
-        include "../inc/menu.inc";
+        include "inc/menu.inc";
     ?>
         <form action="recebe_agendamento.php" method="POST"> 
             <div class = "row" style="padding-bottom:3px">

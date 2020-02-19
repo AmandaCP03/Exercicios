@@ -9,7 +9,7 @@
 </head>
 <body>
     <?php
-        include "../inc/menu.inc";
+        include "inc/menu.inc";
     ?>
     <table class="table table-hover">
         <thead>
