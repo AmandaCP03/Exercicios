@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agendamentos>
+    <agendamento>
+        <nome>Amanda</nome>
+        <email>amanda@email.com</email>
+        <telefone>3333333333</telefone>
+        <data>2020-02-18</data>
+        <hora>08:30</hora>
+    </agendamento>
+<agendamento><nome>milena</nome><email>milena@email.com</email><telefone>444444444444</telefone><data>2020-02-12</data><hora>15:40</hora></agendamento><agendamento><nome>milena</nome><email>milena@email.com</email><telefone>444444444444</telefone><data>2020-02-12</data><hora>15:40</hora></agendamento><agendamento><nome>milena</nome><email>milena@email.com</email><telefone>444444444444</telefone><data>2020-02-12</data><hora>15:40</hora></agendamento><agendamento><nome>milena</nome><email>milena@email.com</email><telefone>444444444444</telefone><data>2020-02-12</data><hora>15:40</hora></agendamento></agendamentos>
