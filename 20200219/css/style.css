@@ -1,25 +1,17 @@
-body{
+/*body{
     text-align:center;
-}
-nav{
+}*/
+/*nav{
     background-color: black;
     color:white;
     height: 50px ;
-}
-.formulario{
-    border: 1px solid black;
-    width: 15%;
-    text-align: left;
-    margin-left: 40%;
-    padding-left:5px;
-    padding-top: 5px;
-}
-.bot{
-    margin-left: 50%;
-}
+}*/
 a:visited{
-    color:white;
+    color:black;
 }
-a:active{
+a:hover{
     color:silver;
+}
+a:link{
+    color:black;
 }
