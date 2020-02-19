@@ -1,5 +1,5 @@
 <nav class = "menu">
-    <div class = "row" style="background-color:black">
+    <div class = "row" style="background-color:blue">
         <div class = "col-1 offset-5">
             <h1 style="color:white" class="logo">Barbearia</h1>
         </div>
