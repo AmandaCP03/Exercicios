@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function validar(n,e,s,d){
+            mensagem = "";
+            if(n!="" && e!="" && s!="" && d!=""){
+                mensagem = "Nome: "+n;
+                mensagem = "\nEmail: "+e;
+                mensagem = "\nSexo: "+s;
+                mensagem = "\nData Nascimento: "+d;
+            }else{
+                mensagem = "Falta preencher campo(s):";
+                if(n==""){
+                    mensagem += "\n-nome";
+                }
+                if(e==""){
+                    mensagem += "\n-email";
+                }
+                if(s==""){
+                    mensagem += "\n-sexo";
+                }
+                if(d==""){
+                    mensagem += "\n-data nascimento";
+                }
+            }
+            alert(mensagem);
+        }
+    </script>
+</head>
+<body>
+    <form name="form">
+       <input type="text" name="nome" placeholder="nome..."/><br/>
+       <input type="email" name="email" placeholder="email..."/><br/>
+       Sexo:<input type="radio" name="sexo" value="m"/>Masc.
+            <input type="radio" name="sexo" value="f"/>Fem.<br/>
+        Data Nasc.:<input type="date" name="data"/><br/>
+        <input type="button" value="Exibir" onclick="validar(document.form.nome.value,document.form.email.value,document.form.sexo.value,document.form.data.value);"/>
+    </form>
+</body>
+</html>
